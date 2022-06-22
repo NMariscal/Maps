@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class LinkedBinaryTree<E> implements BinaryTree<E> {
-    class BinaryTreeNode<E> implements Position<E> {
+     protected class BinaryTreeNode<E> implements Position<E> {
         BinaryTreeNode<E> parent;
         BinaryTreeNode<E> LeftChild;
         BinaryTreeNode<E> RightChild;
