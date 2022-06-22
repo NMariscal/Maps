@@ -1,4 +1,4 @@
-package ordereddictionary;
+package orderedDictionary;
 
 import map.Entry;
 
